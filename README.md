@@ -16,3 +16,8 @@
     1. map은 각각 item 별로 function을 호출 한다. <br/>
     2. Warning: Each child in a list should have a unique "key" prop.<br/>
          -> react의 모든 element는 유일해야한다. list안으로 집어 넣을 때 , 유일성을 읿어 버린다. 따라서 id를 추가
+
+<h3>#2.4 Protection with PropTypes</h3>
+    1. prop-types : 내가 전달받은 props 가 내가 원하는 props인지 확인을 해준다.
+    2. PropTypes로 반드시 이름을 지어야 한다.
+
