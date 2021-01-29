@@ -25,5 +25,13 @@
     1. Function component는 funtion이고 뭔가를 Return 한다. 그리고 screen에 표시된다.<br/>
     2. Class component는 react component로 부터 확장되고 screen에 표시된다.<br/>
     3. state는 object이고 component의 data를 넣을 공간이 있고 이 데이터는 변한다.<br/>
-    4. 매순간 setState를 호출할 때 마다 react는 새로운 state와 함께 render function을 호출한다.
+    4. 매순간 setState를 호출할 때 마다 react는 새로운 state와 함께 render function을 호출한다.<br/>
+
+<h3>#3.1 Component Life Cycle</h3>
+    1. Class Component는 render이외의 더 많은걸 가지고 있다.<br/>
+    2. life cycle method는 기본적으로 react가 component를 생성하고 없애는 방법이다.<br/>
+    3. Mounting / Updating / Unmounting<br/>
+        실행 - Render Mount<br/>
+        setState - Render Update<br/>
+        페이지 나갈 때 - Will Umnount<br/>
 
