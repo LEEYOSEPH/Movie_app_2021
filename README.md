@@ -35,3 +35,8 @@
         setState - Render Update<br/>
         페이지 나갈 때 - Will Umnount<br/>
 
+<h3>#3.2 Planning the Movie Component</h3>
+
+<h3>#4.1 Rendering the Movies</h3>
+    1. YTS API를 axios를 사용해서 data가져오기
+
